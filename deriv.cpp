@@ -1,6 +1,7 @@
 #include "deriv.h"
 
-#include <iostream>
+
+
 
 void deriv::operator() (std::vector<double>& r, std::vector<double>& drdt,
 		std::vector<double>& p, std::vector<double>& dpdt, double dt)
